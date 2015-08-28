@@ -9,12 +9,17 @@
       function test_countRepeats_sameWordCount()
       {
         //Arrange
-        $word = "";
-        $string = "":
+        $test_RepeatCounter = new RepeatCounter;
+        $word = "piano";
+        $string = "piano":
+
         //Act
+        $test_RepeatCounter->countRepeats($word, $string);
+        $result =
 
         //Assert
-        $this->assertEquals();
+        $this->assertEquals(1, $result);
+      
       }
 
 
