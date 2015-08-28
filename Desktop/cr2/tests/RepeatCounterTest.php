@@ -39,6 +39,23 @@
 
       }
 
+      //Test 3  how many words are inside this string?
+      function test_countRepeats_countWordsInString()
+      {
+        //Arrange
+        //Act
+        //Assert
+      }
+
+      //Test4 how many words dont match in a string?
+      function  test_countRepeats_compareDifferentWordsInString()
+      {
+        //Arrange
+        //Act
+        //Assert
+
+        last test needed?
+
 
 
 ?>
