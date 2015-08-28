@@ -16,7 +16,12 @@
         return $app['twig']->render('form.html.twig');
     });
 
+    // this is where the function goes for app->get!
 
-    // always needed to actually return the app 
+
+    });
+
+
+    // always needed to actually return the app
     return $app;
  ?>
