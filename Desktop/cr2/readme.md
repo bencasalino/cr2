@@ -1,4 +1,4 @@
-# Count Repeats App 
+# Count Repeats App
 
 ##### Finds repeated words in a given string. 08-26-15
 
@@ -10,11 +10,11 @@ Web app that allows users can put in a single word and a string of words and the
 
 ## Setup
 
-Start
+Start,
 Run $ composer install.
 Start php server in web directory.
 Direct browser to localhost:8000/
-Finish
+Finish.
 
 ## Technologies Used
 
