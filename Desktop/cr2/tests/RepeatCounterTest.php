@@ -43,19 +43,36 @@
       function test_countRepeats_countWordsInString()
       {
         //Arrange
+        $test_RepeatCounter = new RepeatCounter;
+        $word = "piano";
+        $string = "I like to play piano";
+        // count should be 1!!!
+        // " lets play piano at the piano store"
+        // count should be 2!!
+
         //Act
+        $result = $test_RepeatCounter->countRepeats($word, $string);
+
         //Assert
+        $this->assertEquals(1, $result);
       }
 
       //Test4 how many words dont match in a string?
+      // words that are not in the sentence?
       function  test_countRepeats_compareDifferentWordsInString()
       {
         //Arrange
+        $test_RepeatCounter = new RepeatCounter;
+        $word = "drums";
+        $string = "Let's go play guitar and piano.";
+        // count = 0
+
         //Act
+        $result = $test_RepeatCounter->countRepeats($word, $string);
+
         //Assert
-
-        last test needed?
-
-
+        $this->assertEquals("Words do NOT match input word!", $result);
+      }
+    }
 
 ?>
