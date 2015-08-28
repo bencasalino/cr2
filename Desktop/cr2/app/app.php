@@ -18,6 +18,18 @@
 
     // this is where the function goes for app->get!
 
+    $app->get("/count_repeats", function () use ($app) {
+
+        //link to class name
+        $my_RepeatCounter = new RepeatCounter;
+
+        //needed to get variables
+        $your_repeats = $my_RepeatCounter->countRepeats($_GET['word'], $_GET['string']);
+
+        //return the output with twig as stated above
+        return $app['twig']->render('view.html.twig', array('result' => $your_repeats));
+        
+
 
     });
 
