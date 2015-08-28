@@ -1,0 +1,22 @@
+Spec List 1-4
+
+
+Test 1
+Behavior = Input word when compared with the same word returns the count '1'
+Input = "piano", "piano"
+Output = 1
+
+Test 2
+Behavior = Input word when compared with a different word returns the count '0'
+Input = "piano", "pianos"
+Output = "No words in string match original word."
+
+Test 3
+Behavior = Input word when compared to a string of words returns the number of times input word appears in string
+Input = "piano", "Lets go play Piano."
+Output = 1
+
+Test 4 
+Behavior = Input word when compared to a string of words that doesn't have original word recognizes no matches.
+Input = "piano", "Lets go play guitar."
+Output = "0"
